@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Courier_Prime_Regular"; src: url('fonts/Courier_Prime/CourierPrime-Regular.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Italic";src: url('fonts/Courier_Prime/CourierPrime-Italic.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Bold";src: url('fonts/Courier_Prime/CourierPrime-Bold.ttf');              
+}
+@font-face {
+    font-family: "Poppins"; src: url('fonts/Poppins/Poppins-Light.ttf'); 
+}
+@font-face {
+    font-family: "Poppins_bold"; src: url('fonts/Poppins/Poppins-Bold.ttf');
+}
+
+/* ------------------------------------------------------------------- 
+ * ## background and  colors 
+ * ------------------------------------------------------------------- */
+:root { 
+    --var_background : #efefef;
+    --var_color : #efefef;
+    --var_back_column1 : #647883;
+}
+/* ------------------------------------------------------------------- */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+    background-color: #efefef;
+}
+
+#wrapper{
+    margin: auto;
+    width: 1024px;
+    height: 100vh;    
+}
+
+h1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.feature {
+    background-color: #efefef;
+    height: 20rem;
+    margin-bottom: 1em;
+}
+
+.txt-side-left {
+    padding-top: 70px;
+    float: left;
+    width: 25%;
+    font-family: Poppins_bold;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.txt-side-right {
+    padding-top: 40px;
+    float: right;
+    width: 68%;
+    font-family: Poppins;
+    text-align: justify;
+    padding: 15px;
+}
+
+span {
+    font-family: Poppins_bold;
+}
+
+ul{
+    text-align: center;
+    background-color: #efefef;
+    height: 40px;
+    padding-top: 20px;
+}
+
+li {
+    display: inline;
+    padding: 2em;
+}
+
+li a{
+    text-decoration: none;
+ }
+
+.column1 {
+    float: left;
+    width: 65%;
+    text-align: justify;
+    background-color: #647883;
+    color: #efefef;
+    padding: 10px;
+}
+
+.column2 {
+    float: right;
+    width: 30%;
+}
+
+.column2 img {
+    padding-top: 8px;
+    width: 300px;
+    height: 26rem;
+    object-fit: cover;
+}
+
+.article {
+    height: 27rem;
+    margin-bottom: 1em;
+    background-color: #efefef;
+
+}
+
+.p-title {
+    font-size: 20px;
+    font-family: Courier_Prime_Bold;
+}
+
+.p-text-header {
+    font-weight: 800;
+    font-size: 18px;
+    font-family: Courier_Prime_Italic;
+}
+
+.p-text {
+    font-family: Courier_Prime_Regular;
+}
+
+.form-feature {
+    p{
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+#footer{
+    width: 100%;
+    height: 3rem;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #efefef;
+}

@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Courier_Prime_Regular"; src: url('fonts/Courier_Prime/CourierPrime-Regular.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Italic";src: url('fonts/Courier_Prime/CourierPrime-Italic.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Bold";src: url('fonts/Courier_Prime/CourierPrime-Bold.ttf');              
+}
+@font-face {
+    font-family: "Poppins"; src: url('fonts/Poppins/Poppins-Light.ttf'); 
+}
+@font-face {
+    font-family: "Poppins_bold"; src: url('fonts/Poppins/Poppins-Bold.ttf');
+}
+
+/* ------------------------------------------------------------------- 
+ * ## background and  colors 
+ * ------------------------------------------------------------------- */
+:root { 
+    --var_background : #efefef;
+    --var_color : #efefef;
+    --var_back_column1 : #647883;
+}
+/* ------------------------------------------------------------------- */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+    background-color: #efefef;
+}
+
+ul{
+    text-align: center;
+    background-color: #efefef;
+}
+
+li {
+    display: inline;
+    padding: 2em;
+    font-size: small;
+}
+
+.feature {
+    background-color: #efefef;
+}
+
+.txt-side-left {
+    float: left;
+    font-family: Poppins_bold;
+    width: 20%;
+    margin-left: 1%;
+}
+
+.txt-side-right {
+    font-family: Poppins;
+    margin-left: 30%;
+}
+
+span {
+    font-family: Poppins_bold;
+}
+
+.column1 {
+    float: left;
+    background-color: #647883;
+    color: #efefef;
+    margin-right: 40%;
+}
+
+.p-title {
+    font-family: Courier_Prime_Bold;
+}
+
+.p-text-header {
+    font-family: Courier_Prime_Italic;
+}
+
+.p-text {
+    font-family: Courier_Prime_Regular;
+}
+
+.column2 {
+    margin-left: 65%;
+}
+
+.form-feature {
+    p{
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+#footer{
+    font-weight: bold;
+    text-align: center;
+}

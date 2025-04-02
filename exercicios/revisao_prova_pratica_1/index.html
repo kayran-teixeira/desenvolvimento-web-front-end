@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevisãoProva</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div id="pagina">
+        <div id="cabecalho">
+            <h1>logo</h1>
+            <div id="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">New Page</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <div class="feature">
+                <p>Feature</p>
+            </div>
+            <div class="coluna">
+                <p>1. O que é a fonte Arial?</p>
+                <p class="texto">
+                    A fonte Arial é um tipo de letra sem serifa, do estilo neo-grotesco. Foi criada pela Monotype Typography em 1982 como alternativa à Helvetica. 
+                    A fonte Arial é muito utilizada no mundo do design gráfico e da tipografia. É uma escolha popular para web design, documentos corporativos, design editorial e outros materiais impressos. 
+                </p>
+            </div>
+        </div>
+
+        <div class="conteudo">
+            <div class="form">
+                <p>Formulário</p>
+                <form>
+                    <fieldset>
+                        <legend>Informações pessoais</legend>
+                        <label for="name">Coloque seu nome:</label>
+                        <input type="text" id="name" name="name" required />
+                        <label for="name">Coloque seu email:</label>
+                        <input type="email" id="email" name="email" required />
+                        <label for="password">Digite sua senha:</label>
+                        <input type="password" id="password" name="pass" required />
+                        <label for="confirmPassword">Confirme sua senha:</label>
+                        <input type="password" id="confirmPassword" name="confirmPass" required />
+                        <label for="genero">Coloque seu gênero:</label>
+                        <select id="genero" name="genero">
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                        <label for="aniversario">Coloque seu aniversário</label>
+                        <input type="date" id="aniversario" name="aniversario">
+                        <input type="submit" value="submit" />
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div id="rodape">
+            <p>&copy; Copyright 2025</p>
+        </div>
+    </div>
+</body>
+</html>
